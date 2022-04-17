@@ -1,0 +1,127 @@
+{
+  "uid" : "85d9f4bc6efd34f3",
+  "name" : "test_api01",
+  "fullName" : "testcase.apitestcase.test_apilogin.TestAppLogin#test_api01",
+  "historyId" : "7cca34c4d6144ca268df25e9fea53853",
+  "time" : {
+    "start" : 1650169234876,
+    "stop" : 1650169234876,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "all_fixture",
+    "time" : {
+      "start" : 1650169234875,
+      "stop" : 1650169234875,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "api_fixture",
+    "time" : {
+      "start" : 1650169234875,
+      "stop" : 1650169234875,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "all_fixture::0",
+    "time" : {
+      "start" : 1650169234876,
+      "stop" : 1650169234876,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "api_fixture::0",
+    "time" : {
+      "start" : 1650169234877,
+      "stop" : 1650169234877,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "apilogin"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.apitestcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_apilogin"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAppLogin"
+  }, {
+    "name" : "host",
+    "value" : "pc-jacky-PC"
+  }, {
+    "name" : "thread",
+    "value" : "7160-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.apitestcase.test_apilogin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "85d9f4bc6efd34f3.json",
+  "parameterValues" : [ ]
+}

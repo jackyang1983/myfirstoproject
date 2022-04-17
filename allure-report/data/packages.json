@@ -1,0 +1,85 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcase",
+    "children" : [ {
+      "name" : "apitestcase.test_apilogin",
+      "children" : [ {
+        "name" : "test_api01",
+        "uid" : "3182eb8ab0a4f059",
+        "parentUid" : "a63ff0c261f1db1ea01687e4a096f0bb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650169554269,
+          "stop" : 1650169554269,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "apitestcase.test_apilogin"
+    }, {
+      "name" : "uitestcase.test_uilogin",
+      "children" : [ {
+        "name" : "test_ui01",
+        "uid" : "6b890c9b9892e312",
+        "parentUid" : "a8ec164fd069386216ed67284984244d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650169554274,
+          "stop" : 1650169554274,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_ui02",
+        "uid" : "d1404a44d9c85381",
+        "parentUid" : "a8ec164fd069386216ed67284984244d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650169554276,
+          "stop" : 1650169554276,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : true,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_ui03",
+        "uid" : "aada9e495a2253e",
+        "parentUid" : "a8ec164fd069386216ed67284984244d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650169554280,
+          "stop" : 1650169554280,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "uitestcase.test_uilogin"
+    } ],
+    "uid" : "559e15d0a5469c40d1629e36b5ae40ea"
+  } ]
+}
