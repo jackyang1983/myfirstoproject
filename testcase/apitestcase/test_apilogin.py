@@ -12,12 +12,12 @@ class TestAppLogin:
     @pytest.mark.smoke
     @allure.feature('apilogin')
     @allure.severity('blocker')
-    def test_api01(self,all_fixture,api_fixture):
+    def test_api02(self,all_fixture,api_fixture):
         print('test_api02')
 
 
     @pytest.mark.smoke
     @allure.feature('apilogin')
     @allure.severity('blocker')
-    def test_api01(self,all_fixture,api_fixture):
+    def test_api03(self,all_fixture,api_fixture):
         print('test_api03')
