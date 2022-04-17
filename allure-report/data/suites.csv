@@ -1,5 +1,5 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Apr 17 14:00:34 CST 2022","Sun Apr 17 14:00:34 CST 2022","0","testcase.apitestcase","test_apilogin","TestAppLogin","","","test_api01",""
 "passed","Sun Apr 17 14:00:34 CST 2022","Sun Apr 17 14:00:34 CST 2022","1","testcase.uitestcase","test_uilogin","TestUILoin1","","","test_ui01",""
 "passed","Sun Apr 17 14:00:34 CST 2022","Sun Apr 17 14:00:34 CST 2022","0","testcase.uitestcase","test_uilogin","TestUILoin1","","","test_ui03",""
-"passed","Sun Apr 17 14:00:34 CST 2022","Sun Apr 17 14:00:34 CST 2022","0","testcase.apitestcase","test_apilogin","TestAppLogin","","","test_api01",""
 "passed","Sun Apr 17 14:00:34 CST 2022","Sun Apr 17 14:00:34 CST 2022","0","testcase.uitestcase","test_uilogin","TestUILoin1","","","test_ui02",""

@@ -1,11 +1,11 @@
 {
-  "uid" : "bbbf7b0690ef9922",
-  "name" : "test_ui01",
-  "fullName" : "testcase.uitestcase.test_uilogin.TestUILoin1#test_ui01",
-  "historyId" : "b36a75230da41eaa8535ea681115dd80",
+  "uid" : "834d528193171393",
+  "name" : "test_ui03",
+  "fullName" : "testcase.uitestcase.test_uilogin.TestUILoin1#test_ui03",
+  "historyId" : "a697ec0f7db35f96c8d085c5a5078309",
   "time" : {
-    "start" : 1650169554274,
-    "stop" : 1650169554274,
+    "start" : 1650169235479,
+    "stop" : 1650169235479,
     "duration" : 0
   },
   "status" : "passed",
@@ -18,17 +18,17 @@
   "beforeStages" : [ ],
   "afterStages" : [ ],
   "labels" : [ {
-    "name" : "severity",
-    "value" : "blocker"
-  }, {
     "name" : "feature",
     "value" : "uilogin"
   }, {
-    "name" : "tag",
-    "value" : "smoke"
+    "name" : "severity",
+    "value" : "normal"
   }, {
     "name" : "tag",
-    "value" : "run(order=1)"
+    "value" : "regression"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=3)"
   }, {
     "name" : "parentSuite",
     "value" : "testcase.uitestcase"
@@ -43,7 +43,7 @@
     "value" : "pc-jacky-PC"
   }, {
     "name" : "thread",
-    "value" : "7108-MainThread"
+    "value" : "7160-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -63,8 +63,8 @@
   "retry" : true,
   "extra" : {
     "categories" : [ ],
-    "tags" : [ "run(order=1)", "smoke" ]
+    "tags" : [ "run(order=3)", "regression" ]
   },
-  "source" : "bbbf7b0690ef9922.json",
+  "source" : "834d528193171393.json",
   "parameterValues" : [ ]
 }

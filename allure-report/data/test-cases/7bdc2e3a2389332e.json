@@ -1,11 +1,11 @@
 {
-  "uid" : "cb92d77ddfa6f045",
+  "uid" : "7bdc2e3a2389332e",
   "name" : "test_api01",
   "fullName" : "testcase.apitestcase.test_apilogin.TestAppLogin#test_api01",
   "historyId" : "7cca34c4d6144ca268df25e9fea53853",
   "time" : {
-    "start" : 1650169234876,
-    "stop" : 1650169234876,
+    "start" : 1650169419698,
+    "stop" : 1650169419698,
     "duration" : 0
   },
   "status" : "passed",
@@ -18,8 +18,8 @@
   "beforeStages" : [ {
     "name" : "all_fixture",
     "time" : {
-      "start" : 1650169234875,
-      "stop" : 1650169234875,
+      "start" : 1650169419697,
+      "stop" : 1650169419697,
       "duration" : 0
     },
     "status" : "passed",
@@ -33,8 +33,8 @@
   }, {
     "name" : "api_fixture",
     "time" : {
-      "start" : 1650169234875,
-      "stop" : 1650169234875,
+      "start" : 1650169419697,
+      "stop" : 1650169419697,
       "duration" : 0
     },
     "status" : "passed",
@@ -49,8 +49,8 @@
   "afterStages" : [ {
     "name" : "all_fixture::0",
     "time" : {
-      "start" : 1650169234876,
-      "stop" : 1650169234876,
+      "start" : 1650169419699,
+      "stop" : 1650169419699,
       "duration" : 0
     },
     "status" : "passed",
@@ -64,8 +64,8 @@
   }, {
     "name" : "api_fixture::0",
     "time" : {
-      "start" : 1650169234877,
-      "stop" : 1650169234877,
+      "start" : 1650169419700,
+      "stop" : 1650169419700,
       "duration" : 0
     },
     "status" : "passed",
@@ -78,11 +78,11 @@
     "hasContent" : false
   } ],
   "labels" : [ {
-    "name" : "feature",
-    "value" : "apilogin"
-  }, {
     "name" : "severity",
     "value" : "minor"
+  }, {
+    "name" : "feature",
+    "value" : "apilogin"
   }, {
     "name" : "tag",
     "value" : "smoke"
@@ -100,7 +100,7 @@
     "value" : "pc-jacky-PC"
   }, {
     "name" : "thread",
-    "value" : "7160-MainThread"
+    "value" : "3880-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -122,6 +122,6 @@
     "categories" : [ ],
     "tags" : [ "smoke" ]
   },
-  "source" : "cb92d77ddfa6f045.json",
+  "source" : "7bdc2e3a2389332e.json",
   "parameterValues" : [ ]
 }

@@ -9,7 +9,7 @@
         "name" : "TestAppLogin",
         "children" : [ {
           "name" : "test_api01",
-          "uid" : "a2606975507de4c6",
+          "uid" : "1c4fc0c9781a812b",
           "parentUid" : "f4f79dc65173c1c225328952ad017253",
           "status" : "passed",
           "time" : {
@@ -38,7 +38,7 @@
         "name" : "TestUILoin1",
         "children" : [ {
           "name" : "test_ui01",
-          "uid" : "4f75188fbd63e5cc",
+          "uid" : "6e4a7dcbcc234afc",
           "parentUid" : "48920b4d62921c01a9c3c05a0c8640fc",
           "status" : "passed",
           "time" : {
@@ -55,7 +55,7 @@
           "parameters" : [ ]
         }, {
           "name" : "test_ui02",
-          "uid" : "cdffea16949457d4",
+          "uid" : "d39fb0c6fb4f1eca",
           "parentUid" : "48920b4d62921c01a9c3c05a0c8640fc",
           "status" : "passed",
           "time" : {
@@ -72,7 +72,7 @@
           "parameters" : [ ]
         }, {
           "name" : "test_ui03",
-          "uid" : "a49e1531d42b2aa0",
+          "uid" : "537370665db5d770",
           "parentUid" : "48920b4d62921c01a9c3c05a0c8640fc",
           "status" : "passed",
           "time" : {

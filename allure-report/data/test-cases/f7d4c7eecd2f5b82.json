@@ -1,11 +1,11 @@
 {
-  "uid" : "439388018721384a",
+  "uid" : "f7d4c7eecd2f5b82",
   "name" : "test_api01",
   "fullName" : "testcase.apitestcase.test_apilogin.TestAppLogin#test_api01",
   "historyId" : "7cca34c4d6144ca268df25e9fea53853",
   "time" : {
-    "start" : 1650169419698,
-    "stop" : 1650169419698,
+    "start" : 1650169554269,
+    "stop" : 1650169554269,
     "duration" : 0
   },
   "status" : "passed",
@@ -16,10 +16,10 @@
   "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ {
-    "name" : "all_fixture",
+    "name" : "api_fixture",
     "time" : {
-      "start" : 1650169419697,
-      "stop" : 1650169419697,
+      "start" : 1650169554268,
+      "stop" : 1650169554268,
       "duration" : 0
     },
     "status" : "passed",
@@ -31,10 +31,10 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "api_fixture",
+    "name" : "all_fixture",
     "time" : {
-      "start" : 1650169419697,
-      "stop" : 1650169419697,
+      "start" : 1650169554268,
+      "stop" : 1650169554268,
       "duration" : 0
     },
     "status" : "passed",
@@ -47,10 +47,10 @@
     "hasContent" : false
   } ],
   "afterStages" : [ {
-    "name" : "all_fixture::0",
+    "name" : "api_fixture::0",
     "time" : {
-      "start" : 1650169419699,
-      "stop" : 1650169419699,
+      "start" : 1650169554270,
+      "stop" : 1650169554270,
       "duration" : 0
     },
     "status" : "passed",
@@ -62,10 +62,10 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "api_fixture::0",
+    "name" : "all_fixture::0",
     "time" : {
-      "start" : 1650169419700,
-      "stop" : 1650169419700,
+      "start" : 1650169554270,
+      "stop" : 1650169554270,
       "duration" : 0
     },
     "status" : "passed",
@@ -100,7 +100,7 @@
     "value" : "pc-jacky-PC"
   }, {
     "name" : "thread",
-    "value" : "3880-MainThread"
+    "value" : "7108-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -122,6 +122,6 @@
     "categories" : [ ],
     "tags" : [ "smoke" ]
   },
-  "source" : "439388018721384a.json",
+  "source" : "f7d4c7eecd2f5b82.json",
   "parameterValues" : [ ]
 }

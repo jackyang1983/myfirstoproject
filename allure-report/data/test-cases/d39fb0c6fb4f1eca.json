@@ -1,5 +1,5 @@
 {
-  "uid" : "cdffea16949457d4",
+  "uid" : "d39fb0c6fb4f1eca",
   "name" : "test_ui02",
   "fullName" : "testcase.uitestcase.test_uilogin.TestUILoin1#test_ui02",
   "historyId" : "fc212b1bb8041760e354d7145e0b6aa2",
@@ -124,7 +124,7 @@
   "extra" : {
     "severity" : "critical",
     "retries" : [ {
-      "uid" : "1feffc1cd9b1b635",
+      "uid" : "6811e308c125ccb6",
       "status" : "passed",
       "time" : {
         "start" : 1650169554276,
@@ -132,7 +132,7 @@
         "duration" : 0
       }
     }, {
-      "uid" : "e8d914362c009040",
+      "uid" : "fc98a70a6e05d7ee",
       "status" : "failed",
       "statusDetails" : "AssertionError: assert 1 == 2",
       "time" : {
@@ -141,7 +141,7 @@
         "duration" : 0
       }
     }, {
-      "uid" : "3568f3a94f39f89e",
+      "uid" : "4ef1f03a7574f2da",
       "status" : "failed",
       "statusDetails" : "AssertionError: assert 1 == 2",
       "time" : {
@@ -150,7 +150,7 @@
         "duration" : 1
       }
     }, {
-      "uid" : "599f76ec691b1baa",
+      "uid" : "b92dac58cf7c90be",
       "status" : "failed",
       "statusDetails" : "AssertionError: assert 1 == 2",
       "time" : {
@@ -159,7 +159,7 @@
         "duration" : 0
       }
     }, {
-      "uid" : "46fd1490bfdc0798",
+      "uid" : "c714c14ba75dcc80",
       "status" : "failed",
       "statusDetails" : "AssertionError: assert 1 == 2",
       "time" : {
@@ -168,7 +168,7 @@
         "duration" : 0
       }
     }, {
-      "uid" : "a0bd03c354580c8c",
+      "uid" : "95662d26f565bb1b",
       "status" : "failed",
       "statusDetails" : "AssertionError: assert 1 == 2",
       "time" : {
@@ -177,7 +177,7 @@
         "duration" : 0
       }
     }, {
-      "uid" : "7b5cc22b0818fe5e",
+      "uid" : "99972f650c1cf83",
       "status" : "failed",
       "statusDetails" : "AssertionError: assert 1 == 2",
       "time" : {
@@ -248,6 +248,6 @@
     },
     "tags" : [ "run(order=2)", "smoke" ]
   },
-  "source" : "cdffea16949457d4.json",
+  "source" : "d39fb0c6fb4f1eca.json",
   "parameterValues" : [ ]
 }

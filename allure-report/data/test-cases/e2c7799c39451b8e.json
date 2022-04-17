@@ -1,11 +1,11 @@
 {
-  "uid" : "71ef1cb5ca4bb853",
+  "uid" : "e2c7799c39451b8e",
   "name" : "test_ui03",
   "fullName" : "testcase.uitestcase.test_uilogin.TestUILoin1#test_ui03",
   "historyId" : "a697ec0f7db35f96c8d085c5a5078309",
   "time" : {
-    "start" : 1650169420305,
-    "stop" : 1650169420305,
+    "start" : 1650169554280,
+    "stop" : 1650169554280,
     "duration" : 0
   },
   "status" : "passed",
@@ -43,7 +43,7 @@
     "value" : "pc-jacky-PC"
   }, {
     "name" : "thread",
-    "value" : "3880-MainThread"
+    "value" : "7108-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -65,6 +65,6 @@
     "categories" : [ ],
     "tags" : [ "run(order=3)", "regression" ]
   },
-  "source" : "71ef1cb5ca4bb853.json",
+  "source" : "e2c7799c39451b8e.json",
   "parameterValues" : [ ]
 }

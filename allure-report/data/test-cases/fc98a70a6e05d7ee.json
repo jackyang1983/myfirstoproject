@@ -1,12 +1,12 @@
 {
-  "uid" : "3568f3a94f39f89e",
+  "uid" : "fc98a70a6e05d7ee",
   "name" : "test_ui02",
   "fullName" : "testcase.uitestcase.test_uilogin.TestUILoin1#test_ui02",
   "historyId" : "fc212b1bb8041760e354d7145e0b6aa2",
   "time" : {
-    "start" : 1650169420285,
-    "stop" : 1650169420286,
-    "duration" : 1
+    "start" : 1650169420293,
+    "stop" : 1650169420293,
+    "duration" : 0
   },
   "status" : "failed",
   "statusMessage" : "AssertionError: assert 1 == 2",
@@ -20,8 +20,8 @@
   "beforeStages" : [ {
     "name" : "all_fixture",
     "time" : {
-      "start" : 1650169420285,
-      "stop" : 1650169420285,
+      "start" : 1650169420292,
+      "stop" : 1650169420292,
       "duration" : 0
     },
     "status" : "passed",
@@ -35,8 +35,8 @@
   }, {
     "name" : "ui_fixture",
     "time" : {
-      "start" : 1650169420285,
-      "stop" : 1650169420285,
+      "start" : 1650169420293,
+      "stop" : 1650169420293,
       "duration" : 0
     },
     "status" : "passed",
@@ -49,10 +49,10 @@
     "hasContent" : false
   } ],
   "afterStages" : [ {
-    "name" : "all_fixture::0",
+    "name" : "ui_fixture::0",
     "time" : {
-      "start" : 1650169420290,
-      "stop" : 1650169420290,
+      "start" : 1650169420297,
+      "stop" : 1650169420297,
       "duration" : 0
     },
     "status" : "passed",
@@ -64,10 +64,10 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "ui_fixture::0",
+    "name" : "all_fixture::0",
     "time" : {
-      "start" : 1650169420290,
-      "stop" : 1650169420290,
+      "start" : 1650169420301,
+      "stop" : 1650169420301,
       "duration" : 0
     },
     "status" : "passed",
@@ -127,6 +127,6 @@
     "categories" : [ ],
     "tags" : [ "run(order=2)", "smoke" ]
   },
-  "source" : "3568f3a94f39f89e.json",
+  "source" : "fc98a70a6e05d7ee.json",
   "parameterValues" : [ ]
 }

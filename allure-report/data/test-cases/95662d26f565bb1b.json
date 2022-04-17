@@ -1,14 +1,16 @@
 {
-  "uid" : "ad1e7772cc78c96",
-  "name" : "test_api01",
-  "fullName" : "testcase.apitestcase.test_apilogin.TestAppLogin#test_api01",
-  "historyId" : "7cca34c4d6144ca268df25e9fea53853",
+  "uid" : "95662d26f565bb1b",
+  "name" : "test_ui02",
+  "fullName" : "testcase.uitestcase.test_uilogin.TestUILoin1#test_ui02",
+  "historyId" : "fc212b1bb8041760e354d7145e0b6aa2",
   "time" : {
-    "start" : 1650169554269,
-    "stop" : 1650169554269,
+    "start" : 1650169235463,
+    "stop" : 1650169235463,
     "duration" : 0
   },
-  "status" : "passed",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 1 == 2",
+  "statusTrace" : "self = <testcase.uitestcase.test_uilogin.TestUILoin1 object at 0x00000000029087F0>\nall_fixture = None, ui_fixture = None\n\n        @pytest.mark.run(order=2)\n        @pytest.mark.smoke\n        @allure.feature('uilogin')\n        @allure.severity('critical')\n    #    @pytest.mark.skip(reason='test case is not valid any more')\n        def test_ui02(self,all_fixture,ui_fixture):\n            print('\\ntest_ui02')\n>           assert 1==2\nE           assert 1 == 2\n\ntestcase\\uitestcase\\test_uilogin.py:21: AssertionError",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
@@ -16,10 +18,10 @@
   "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ {
-    "name" : "api_fixture",
+    "name" : "ui_fixture",
     "time" : {
-      "start" : 1650169554268,
-      "stop" : 1650169554268,
+      "start" : 1650169235462,
+      "stop" : 1650169235462,
       "duration" : 0
     },
     "status" : "passed",
@@ -33,8 +35,8 @@
   }, {
     "name" : "all_fixture",
     "time" : {
-      "start" : 1650169554268,
-      "stop" : 1650169554268,
+      "start" : 1650169235462,
+      "stop" : 1650169235462,
       "duration" : 0
     },
     "status" : "passed",
@@ -47,10 +49,10 @@
     "hasContent" : false
   } ],
   "afterStages" : [ {
-    "name" : "api_fixture::0",
+    "name" : "ui_fixture::0",
     "time" : {
-      "start" : 1650169554270,
-      "stop" : 1650169554270,
+      "start" : 1650169235467,
+      "stop" : 1650169235467,
       "duration" : 0
     },
     "status" : "passed",
@@ -64,8 +66,8 @@
   }, {
     "name" : "all_fixture::0",
     "time" : {
-      "start" : 1650169554270,
-      "stop" : 1650169554270,
+      "start" : 1650169235468,
+      "stop" : 1650169235468,
       "duration" : 0
     },
     "status" : "passed",
@@ -78,29 +80,32 @@
     "hasContent" : false
   } ],
   "labels" : [ {
-    "name" : "severity",
-    "value" : "minor"
-  }, {
     "name" : "feature",
-    "value" : "apilogin"
+    "value" : "uilogin"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
   }, {
     "name" : "tag",
     "value" : "smoke"
   }, {
+    "name" : "tag",
+    "value" : "run(order=2)"
+  }, {
     "name" : "parentSuite",
-    "value" : "testcase.apitestcase"
+    "value" : "testcase.uitestcase"
   }, {
     "name" : "suite",
-    "value" : "test_apilogin"
+    "value" : "test_uilogin"
   }, {
     "name" : "subSuite",
-    "value" : "TestAppLogin"
+    "value" : "TestUILoin1"
   }, {
     "name" : "host",
     "value" : "pc-jacky-PC"
   }, {
     "name" : "thread",
-    "value" : "7108-MainThread"
+    "value" : "7160-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -109,7 +114,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "testcase.apitestcase.test_apilogin"
+    "value" : "testcase.uitestcase.test_uilogin"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -120,8 +125,8 @@
   "retry" : true,
   "extra" : {
     "categories" : [ ],
-    "tags" : [ "smoke" ]
+    "tags" : [ "run(order=2)", "smoke" ]
   },
-  "source" : "ad1e7772cc78c96.json",
+  "source" : "95662d26f565bb1b.json",
   "parameterValues" : [ ]
 }

@@ -1,5 +1,5 @@
 {
-  "uid" : "a2606975507de4c6",
+  "uid" : "1c4fc0c9781a812b",
   "name" : "test_api01",
   "fullName" : "testcase.apitestcase.test_apilogin.TestAppLogin#test_api01",
   "historyId" : "7cca34c4d6144ca268df25e9fea53853",
@@ -121,7 +121,7 @@
   "extra" : {
     "severity" : "minor",
     "retries" : [ {
-      "uid" : "ad1e7772cc78c96",
+      "uid" : "f7d4c7eecd2f5b82",
       "status" : "passed",
       "time" : {
         "start" : 1650169554269,
@@ -129,7 +129,7 @@
         "duration" : 0
       }
     }, {
-      "uid" : "439388018721384a",
+      "uid" : "7bdc2e3a2389332e",
       "status" : "passed",
       "time" : {
         "start" : 1650169419698,
@@ -137,7 +137,7 @@
         "duration" : 0
       }
     }, {
-      "uid" : "cb92d77ddfa6f045",
+      "uid" : "dc658a92109a61a1",
       "status" : "passed",
       "time" : {
         "start" : 1650169234876,
@@ -203,6 +203,6 @@
     },
     "tags" : [ "smoke" ]
   },
-  "source" : "a2606975507de4c6.json",
+  "source" : "1c4fc0c9781a812b.json",
   "parameterValues" : [ ]
 }

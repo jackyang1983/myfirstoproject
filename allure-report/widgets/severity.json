@@ -1,5 +1,5 @@
 [ {
-  "uid" : "a2606975507de4c6",
+  "uid" : "1c4fc0c9781a812b",
   "name" : "test_api01",
   "time" : {
     "start" : 1650175234574,
@@ -9,7 +9,7 @@
   "status" : "passed",
   "severity" : "minor"
 }, {
-  "uid" : "cdffea16949457d4",
+  "uid" : "d39fb0c6fb4f1eca",
   "name" : "test_ui02",
   "time" : {
     "start" : 1650175234581,
@@ -19,7 +19,7 @@
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "4f75188fbd63e5cc",
+  "uid" : "6e4a7dcbcc234afc",
   "name" : "test_ui01",
   "time" : {
     "start" : 1650175234578,
@@ -29,7 +29,7 @@
   "status" : "passed",
   "severity" : "blocker"
 }, {
-  "uid" : "a49e1531d42b2aa0",
+  "uid" : "537370665db5d770",
   "name" : "test_ui03",
   "time" : {
     "start" : 1650175234584,

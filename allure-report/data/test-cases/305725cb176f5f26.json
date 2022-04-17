@@ -1,11 +1,11 @@
 {
-  "uid" : "9be77d15222d5699",
-  "name" : "test_ui03",
-  "fullName" : "testcase.uitestcase.test_uilogin.TestUILoin1#test_ui03",
-  "historyId" : "a697ec0f7db35f96c8d085c5a5078309",
+  "uid" : "305725cb176f5f26",
+  "name" : "test_ui01",
+  "fullName" : "testcase.uitestcase.test_uilogin.TestUILoin1#test_ui01",
+  "historyId" : "b36a75230da41eaa8535ea681115dd80",
   "time" : {
-    "start" : 1650169554280,
-    "stop" : 1650169554280,
+    "start" : 1650169554274,
+    "stop" : 1650169554274,
     "duration" : 0
   },
   "status" : "passed",
@@ -18,17 +18,17 @@
   "beforeStages" : [ ],
   "afterStages" : [ ],
   "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
     "name" : "feature",
     "value" : "uilogin"
   }, {
-    "name" : "severity",
-    "value" : "normal"
+    "name" : "tag",
+    "value" : "smoke"
   }, {
     "name" : "tag",
-    "value" : "regression"
-  }, {
-    "name" : "tag",
-    "value" : "run(order=3)"
+    "value" : "run(order=1)"
   }, {
     "name" : "parentSuite",
     "value" : "testcase.uitestcase"
@@ -63,8 +63,8 @@
   "retry" : true,
   "extra" : {
     "categories" : [ ],
-    "tags" : [ "run(order=3)", "regression" ]
+    "tags" : [ "run(order=1)", "smoke" ]
   },
-  "source" : "9be77d15222d5699.json",
+  "source" : "305725cb176f5f26.json",
   "parameterValues" : [ ]
 }
