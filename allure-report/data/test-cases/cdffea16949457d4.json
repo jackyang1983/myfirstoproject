@@ -1,25 +1,25 @@
 {
-  "uid" : "d1404a44d9c85381",
+  "uid" : "cdffea16949457d4",
   "name" : "test_ui02",
   "fullName" : "testcase.uitestcase.test_uilogin.TestUILoin1#test_ui02",
   "historyId" : "fc212b1bb8041760e354d7145e0b6aa2",
   "time" : {
-    "start" : 1650169554276,
-    "stop" : 1650169554276,
+    "start" : 1650175234581,
+    "stop" : 1650175234581,
     "duration" : 0
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
-  "newPassed" : true,
-  "retriesCount" : 6,
+  "newPassed" : false,
+  "retriesCount" : 7,
   "retriesStatusChange" : true,
   "beforeStages" : [ {
-    "name" : "all_fixture",
+    "name" : "ui_fixture",
     "time" : {
-      "start" : 1650169554276,
-      "stop" : 1650169554276,
+      "start" : 1650175234580,
+      "stop" : 1650175234580,
       "duration" : 0
     },
     "status" : "passed",
@@ -31,10 +31,10 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "ui_fixture",
+    "name" : "all_fixture",
     "time" : {
-      "start" : 1650169554276,
-      "stop" : 1650169554276,
+      "start" : 1650175234580,
+      "stop" : 1650175234580,
       "duration" : 0
     },
     "status" : "passed",
@@ -49,8 +49,8 @@
   "afterStages" : [ {
     "name" : "ui_fixture::0",
     "time" : {
-      "start" : 1650169554276,
-      "stop" : 1650169554276,
+      "start" : 1650175234581,
+      "stop" : 1650175234581,
       "duration" : 0
     },
     "status" : "passed",
@@ -64,8 +64,8 @@
   }, {
     "name" : "all_fixture::0",
     "time" : {
-      "start" : 1650169554277,
-      "stop" : 1650169554277,
+      "start" : 1650175234582,
+      "stop" : 1650175234582,
       "duration" : 0
     },
     "status" : "passed",
@@ -78,11 +78,11 @@
     "hasContent" : false
   } ],
   "labels" : [ {
-    "name" : "feature",
-    "value" : "uilogin"
-  }, {
     "name" : "severity",
     "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "uilogin"
   }, {
     "name" : "tag",
     "value" : "smoke"
@@ -103,7 +103,7 @@
     "value" : "pc-jacky-PC"
   }, {
     "name" : "thread",
-    "value" : "7108-MainThread"
+    "value" : "5372-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -124,7 +124,15 @@
   "extra" : {
     "severity" : "critical",
     "retries" : [ {
-      "uid" : "14121454d7d7e02e",
+      "uid" : "1feffc1cd9b1b635",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650169554276,
+        "stop" : 1650169554276,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e8d914362c009040",
       "status" : "failed",
       "statusDetails" : "AssertionError: assert 1 == 2",
       "time" : {
@@ -133,7 +141,7 @@
         "duration" : 0
       }
     }, {
-      "uid" : "2eba3f9773dae974",
+      "uid" : "3568f3a94f39f89e",
       "status" : "failed",
       "statusDetails" : "AssertionError: assert 1 == 2",
       "time" : {
@@ -142,7 +150,7 @@
         "duration" : 1
       }
     }, {
-      "uid" : "e2337d690cb60952",
+      "uid" : "599f76ec691b1baa",
       "status" : "failed",
       "statusDetails" : "AssertionError: assert 1 == 2",
       "time" : {
@@ -151,7 +159,7 @@
         "duration" : 0
       }
     }, {
-      "uid" : "69fb58de7ca6363f",
+      "uid" : "46fd1490bfdc0798",
       "status" : "failed",
       "statusDetails" : "AssertionError: assert 1 == 2",
       "time" : {
@@ -160,7 +168,7 @@
         "duration" : 0
       }
     }, {
-      "uid" : "481099403ed6d4e2",
+      "uid" : "a0bd03c354580c8c",
       "status" : "failed",
       "statusDetails" : "AssertionError: assert 1 == 2",
       "time" : {
@@ -169,7 +177,7 @@
         "duration" : 0
       }
     }, {
-      "uid" : "945521f41a77e2d8",
+      "uid" : "7b5cc22b0818fe5e",
       "status" : "failed",
       "statusDetails" : "AssertionError: assert 1 == 2",
       "time" : {
@@ -184,11 +192,20 @@
         "failed" : 4,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 1,
+        "passed" : 2,
         "unknown" : 0,
-        "total" : 5
+        "total" : 6
       },
       "items" : [ {
+        "uid" : "d1404a44d9c85381",
+        "reportUrl" : "http://localhost:8080/job/pytestdemo/17/allure/#testresult/d1404a44d9c85381",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650169554276,
+          "stop" : 1650169554276,
+          "duration" : 0
+        }
+      }, {
         "uid" : "88df1db7e9b82385",
         "reportUrl" : "http://localhost:8080/job/pytestdemo/16/allure/#testresult/88df1db7e9b82385",
         "status" : "failed",
@@ -231,6 +248,6 @@
     },
     "tags" : [ "run(order=2)", "smoke" ]
   },
-  "source" : "d1404a44d9c85381.json",
+  "source" : "cdffea16949457d4.json",
   "parameterValues" : [ ]
 }

@@ -1,11 +1,11 @@
 {
-  "uid" : "945521f41a77e2d8",
+  "uid" : "a0bd03c354580c8c",
   "name" : "test_ui02",
   "fullName" : "testcase.uitestcase.test_uilogin.TestUILoin1#test_ui02",
   "historyId" : "fc212b1bb8041760e354d7145e0b6aa2",
   "time" : {
-    "start" : 1650169234887,
-    "stop" : 1650169234887,
+    "start" : 1650169235463,
+    "stop" : 1650169235463,
     "duration" : 0
   },
   "status" : "failed",
@@ -18,10 +18,10 @@
   "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ {
-    "name" : "all_fixture",
+    "name" : "ui_fixture",
     "time" : {
-      "start" : 1650169234886,
-      "stop" : 1650169234886,
+      "start" : 1650169235462,
+      "stop" : 1650169235462,
       "duration" : 0
     },
     "status" : "passed",
@@ -33,10 +33,10 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "ui_fixture",
+    "name" : "all_fixture",
     "time" : {
-      "start" : 1650169234887,
-      "stop" : 1650169234887,
+      "start" : 1650169235462,
+      "stop" : 1650169235462,
       "duration" : 0
     },
     "status" : "passed",
@@ -51,8 +51,8 @@
   "afterStages" : [ {
     "name" : "ui_fixture::0",
     "time" : {
-      "start" : 1650169235459,
-      "stop" : 1650169235459,
+      "start" : 1650169235467,
+      "stop" : 1650169235467,
       "duration" : 0
     },
     "status" : "passed",
@@ -66,8 +66,8 @@
   }, {
     "name" : "all_fixture::0",
     "time" : {
-      "start" : 1650169235460,
-      "stop" : 1650169235460,
+      "start" : 1650169235468,
+      "stop" : 1650169235468,
       "duration" : 0
     },
     "status" : "passed",
@@ -127,6 +127,6 @@
     "categories" : [ ],
     "tags" : [ "run(order=2)", "smoke" ]
   },
-  "source" : "945521f41a77e2d8.json",
+  "source" : "a0bd03c354580c8c.json",
   "parameterValues" : [ ]
 }

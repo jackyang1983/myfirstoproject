@@ -1,11 +1,11 @@
 {
-  "uid" : "aada9e495a2253e",
+  "uid" : "a49e1531d42b2aa0",
   "name" : "test_ui03",
   "fullName" : "testcase.uitestcase.test_uilogin.TestUILoin1#test_ui03",
   "historyId" : "a697ec0f7db35f96c8d085c5a5078309",
   "time" : {
-    "start" : 1650169554280,
-    "stop" : 1650169554280,
+    "start" : 1650175234584,
+    "stop" : 1650175234584,
     "duration" : 0
   },
   "status" : "passed",
@@ -13,16 +13,16 @@
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 2,
+  "retriesCount" : 3,
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "afterStages" : [ ],
   "labels" : [ {
-    "name" : "feature",
-    "value" : "uilogin"
-  }, {
     "name" : "severity",
     "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "uilogin"
   }, {
     "name" : "tag",
     "value" : "regression"
@@ -43,7 +43,7 @@
     "value" : "pc-jacky-PC"
   }, {
     "name" : "thread",
-    "value" : "7108-MainThread"
+    "value" : "5372-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -64,7 +64,15 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "fe720984de2242cf",
+      "uid" : "9be77d15222d5699",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650169554280,
+        "stop" : 1650169554280,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "71ef1cb5ca4bb853",
       "status" : "passed",
       "time" : {
         "start" : 1650169420305,
@@ -72,7 +80,7 @@
         "duration" : 0
       }
     }, {
-      "uid" : "a28d9449ba2247c6",
+      "uid" : "da8f127939b50eac",
       "status" : "passed",
       "time" : {
         "start" : 1650169235479,
@@ -86,11 +94,20 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 5,
+        "passed" : 6,
         "unknown" : 0,
-        "total" : 5
+        "total" : 6
       },
       "items" : [ {
+        "uid" : "aada9e495a2253e",
+        "reportUrl" : "http://localhost:8080/job/pytestdemo/17/allure/#testresult/aada9e495a2253e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650169554280,
+          "stop" : 1650169554280,
+          "duration" : 0
+        }
+      }, {
         "uid" : "a206881e2a9b1f22",
         "reportUrl" : "http://localhost:8080/job/pytestdemo/16/allure/#testresult/a206881e2a9b1f22",
         "status" : "passed",
@@ -129,6 +146,6 @@
     },
     "tags" : [ "run(order=3)", "regression" ]
   },
-  "source" : "aada9e495a2253e.json",
+  "source" : "a49e1531d42b2aa0.json",
   "parameterValues" : [ ]
 }

@@ -1,4 +1,16 @@
 [ {
+  "buildOrder" : 17,
+  "reportUrl" : "http://localhost:8080/job/pytestdemo/17/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 4,
+    "unknown" : 0,
+    "total" : 4
+  }
+}, {
   "buildOrder" : 16,
   "reportUrl" : "http://localhost:8080/job/pytestdemo/16/allure",
   "reportName" : "AllureReport",

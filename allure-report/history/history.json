@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 5,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 5
+      "total" : 6
     },
     "items" : [ {
+      "uid" : "a49e1531d42b2aa0",
+      "reportUrl" : "http://localhost:8080/job/pytestdemo/18/allure/#testresult/a49e1531d42b2aa0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650175234584,
+        "stop" : 1650175234584,
+        "duration" : 0
+      }
+    }, {
       "uid" : "aada9e495a2253e",
       "reportUrl" : "http://localhost:8080/job/pytestdemo/17/allure/#testresult/aada9e495a2253e",
       "status" : "passed",
@@ -59,11 +68,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 5,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 5
+      "total" : 6
     },
     "items" : [ {
+      "uid" : "4f75188fbd63e5cc",
+      "reportUrl" : "http://localhost:8080/job/pytestdemo/18/allure/#testresult/4f75188fbd63e5cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650175234578,
+        "stop" : 1650175234579,
+        "duration" : 1
+      }
+    }, {
       "uid" : "6b890c9b9892e312",
       "reportUrl" : "http://localhost:8080/job/pytestdemo/17/allure/#testresult/6b890c9b9892e312",
       "status" : "passed",
@@ -114,11 +132,20 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 5
+      "total" : 6
     },
     "items" : [ {
+      "uid" : "cdffea16949457d4",
+      "reportUrl" : "http://localhost:8080/job/pytestdemo/18/allure/#testresult/cdffea16949457d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650175234581,
+        "stop" : 1650175234581,
+        "duration" : 0
+      }
+    }, {
       "uid" : "d1404a44d9c85381",
       "reportUrl" : "http://localhost:8080/job/pytestdemo/17/allure/#testresult/d1404a44d9c85381",
       "status" : "passed",
@@ -173,11 +200,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 5,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 5
+      "total" : 6
     },
     "items" : [ {
+      "uid" : "a2606975507de4c6",
+      "reportUrl" : "http://localhost:8080/job/pytestdemo/18/allure/#testresult/a2606975507de4c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650175234574,
+        "stop" : 1650175234574,
+        "duration" : 0
+      }
+    }, {
       "uid" : "3182eb8ab0a4f059",
       "reportUrl" : "http://localhost:8080/job/pytestdemo/17/allure/#testresult/3182eb8ab0a4f059",
       "status" : "passed",

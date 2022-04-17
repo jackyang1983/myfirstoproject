@@ -2,9 +2,9 @@
   "name" : "Jenkins",
   "type" : "jenkins",
   "url" : "http://localhost:8080/",
-  "buildOrder" : 17,
-  "buildName" : "pytestdemo #17",
-  "buildUrl" : "http://localhost:8080/job/pytestdemo/17/",
+  "buildOrder" : 18,
+  "buildName" : "pytestdemo #18",
+  "buildUrl" : "http://localhost:8080/job/pytestdemo/18/",
   "reportName" : "AllureReport",
-  "reportUrl" : "http://localhost:8080/job/pytestdemo/17/allure"
+  "reportUrl" : "http://localhost:8080/job/pytestdemo/18/allure"
 } ]

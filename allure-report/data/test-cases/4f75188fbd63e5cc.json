@@ -1,19 +1,19 @@
 {
-  "uid" : "6b890c9b9892e312",
+  "uid" : "4f75188fbd63e5cc",
   "name" : "test_ui01",
   "fullName" : "testcase.uitestcase.test_uilogin.TestUILoin1#test_ui01",
   "historyId" : "b36a75230da41eaa8535ea681115dd80",
   "time" : {
-    "start" : 1650169554274,
-    "stop" : 1650169554274,
-    "duration" : 0
+    "start" : 1650175234578,
+    "stop" : 1650175234579,
+    "duration" : 1
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 2,
+  "retriesCount" : 3,
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "afterStages" : [ ],
@@ -43,7 +43,7 @@
     "value" : "pc-jacky-PC"
   }, {
     "name" : "thread",
-    "value" : "7108-MainThread"
+    "value" : "5372-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -64,7 +64,15 @@
   "extra" : {
     "severity" : "blocker",
     "retries" : [ {
-      "uid" : "c0e1277874524608",
+      "uid" : "bbbf7b0690ef9922",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650169554274,
+        "stop" : 1650169554274,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6fbd3c06cc9d4803",
       "status" : "passed",
       "time" : {
         "start" : 1650169419703,
@@ -72,7 +80,7 @@
         "duration" : 0
       }
     }, {
-      "uid" : "5034f58aa2d1ac29",
+      "uid" : "407ff0029e2e5084",
       "status" : "passed",
       "time" : {
         "start" : 1650169234884,
@@ -86,11 +94,20 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 5,
+        "passed" : 6,
         "unknown" : 0,
-        "total" : 5
+        "total" : 6
       },
       "items" : [ {
+        "uid" : "6b890c9b9892e312",
+        "reportUrl" : "http://localhost:8080/job/pytestdemo/17/allure/#testresult/6b890c9b9892e312",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650169554274,
+          "stop" : 1650169554274,
+          "duration" : 0
+        }
+      }, {
         "uid" : "6ef4d82f89a79cf8",
         "reportUrl" : "http://localhost:8080/job/pytestdemo/16/allure/#testresult/6ef4d82f89a79cf8",
         "status" : "passed",
@@ -129,6 +146,6 @@
     },
     "tags" : [ "run(order=1)", "smoke" ]
   },
-  "source" : "6b890c9b9892e312.json",
+  "source" : "4f75188fbd63e5cc.json",
   "parameterValues" : [ ]
 }

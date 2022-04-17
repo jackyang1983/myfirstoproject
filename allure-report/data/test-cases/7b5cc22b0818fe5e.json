@@ -1,16 +1,16 @@
 {
-  "uid" : "14121454d7d7e02e",
+  "uid" : "7b5cc22b0818fe5e",
   "name" : "test_ui02",
   "fullName" : "testcase.uitestcase.test_uilogin.TestUILoin1#test_ui02",
   "historyId" : "fc212b1bb8041760e354d7145e0b6aa2",
   "time" : {
-    "start" : 1650169420293,
-    "stop" : 1650169420293,
+    "start" : 1650169234887,
+    "stop" : 1650169234887,
     "duration" : 0
   },
   "status" : "failed",
   "statusMessage" : "AssertionError: assert 1 == 2",
-  "statusTrace" : "self = <testcase.uitestcase.test_uilogin.TestUILoin1 object at 0x000000000290A850>\nall_fixture = None, ui_fixture = None\n\n        @pytest.mark.run(order=2)\n        @pytest.mark.smoke\n        @allure.feature('uilogin')\n        @allure.severity('critical')\n    #    @pytest.mark.skip(reason='test case is not valid any more')\n        def test_ui02(self,all_fixture,ui_fixture):\n            print('\\ntest_ui02')\n>           assert 1==2\nE           assert 1 == 2\n\ntestcase\\uitestcase\\test_uilogin.py:21: AssertionError",
+  "statusTrace" : "self = <testcase.uitestcase.test_uilogin.TestUILoin1 object at 0x00000000029087F0>\nall_fixture = None, ui_fixture = None\n\n        @pytest.mark.run(order=2)\n        @pytest.mark.smoke\n        @allure.feature('uilogin')\n        @allure.severity('critical')\n    #    @pytest.mark.skip(reason='test case is not valid any more')\n        def test_ui02(self,all_fixture,ui_fixture):\n            print('\\ntest_ui02')\n>           assert 1==2\nE           assert 1 == 2\n\ntestcase\\uitestcase\\test_uilogin.py:21: AssertionError",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
@@ -20,8 +20,8 @@
   "beforeStages" : [ {
     "name" : "all_fixture",
     "time" : {
-      "start" : 1650169420292,
-      "stop" : 1650169420292,
+      "start" : 1650169234886,
+      "stop" : 1650169234886,
       "duration" : 0
     },
     "status" : "passed",
@@ -35,8 +35,8 @@
   }, {
     "name" : "ui_fixture",
     "time" : {
-      "start" : 1650169420293,
-      "stop" : 1650169420293,
+      "start" : 1650169234887,
+      "stop" : 1650169234887,
       "duration" : 0
     },
     "status" : "passed",
@@ -51,8 +51,8 @@
   "afterStages" : [ {
     "name" : "ui_fixture::0",
     "time" : {
-      "start" : 1650169420297,
-      "stop" : 1650169420297,
+      "start" : 1650169235459,
+      "stop" : 1650169235459,
       "duration" : 0
     },
     "status" : "passed",
@@ -66,8 +66,8 @@
   }, {
     "name" : "all_fixture::0",
     "time" : {
-      "start" : 1650169420301,
-      "stop" : 1650169420301,
+      "start" : 1650169235460,
+      "stop" : 1650169235460,
       "duration" : 0
     },
     "status" : "passed",
@@ -105,7 +105,7 @@
     "value" : "pc-jacky-PC"
   }, {
     "name" : "thread",
-    "value" : "3880-MainThread"
+    "value" : "7160-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -127,6 +127,6 @@
     "categories" : [ ],
     "tags" : [ "run(order=2)", "smoke" ]
   },
-  "source" : "14121454d7d7e02e.json",
+  "source" : "7b5cc22b0818fe5e.json",
   "parameterValues" : [ ]
 }

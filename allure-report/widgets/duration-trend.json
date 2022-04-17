@@ -1,4 +1,11 @@
 [ {
+  "buildOrder" : 18,
+  "reportUrl" : "http://localhost:8080/job/pytestdemo/18/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 10
+  }
+}, {
   "buildOrder" : 17,
   "reportUrl" : "http://localhost:8080/job/pytestdemo/17/allure",
   "reportName" : "AllureReport",

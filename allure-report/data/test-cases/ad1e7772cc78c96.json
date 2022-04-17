@@ -1,5 +1,5 @@
 {
-  "uid" : "3182eb8ab0a4f059",
+  "uid" : "ad1e7772cc78c96",
   "name" : "test_api01",
   "fullName" : "testcase.apitestcase.test_apilogin.TestAppLogin#test_api01",
   "historyId" : "7cca34c4d6144ca268df25e9fea53853",
@@ -13,7 +13,7 @@
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 2,
+  "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ {
     "name" : "api_fixture",
@@ -116,76 +116,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "minor",
-    "retries" : [ {
-      "uid" : "4e4c4260fd1311cc",
-      "status" : "passed",
-      "time" : {
-        "start" : 1650169419698,
-        "stop" : 1650169419698,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "85d9f4bc6efd34f3",
-      "status" : "passed",
-      "time" : {
-        "start" : 1650169234876,
-        "stop" : 1650169234876,
-        "duration" : 0
-      }
-    } ],
     "categories" : [ ],
-    "history" : {
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 0,
-        "skipped" : 0,
-        "passed" : 5,
-        "unknown" : 0,
-        "total" : 5
-      },
-      "items" : [ {
-        "uid" : "64f4c8127f2784a3",
-        "reportUrl" : "http://localhost:8080/job/pytestdemo/16/allure/#testresult/64f4c8127f2784a3",
-        "status" : "passed",
-        "time" : {
-          "start" : 1650169419698,
-          "stop" : 1650169419698,
-          "duration" : 0
-        }
-      }, {
-        "uid" : "6bbad0ba3ddd9fd8",
-        "reportUrl" : "http://localhost:8080/job/pytestdemo/15/allure/#testresult/6bbad0ba3ddd9fd8",
-        "status" : "passed",
-        "time" : {
-          "start" : 1650169234876,
-          "stop" : 1650169234876,
-          "duration" : 0
-        }
-      }, {
-        "uid" : "e14bc10df372ed83",
-        "reportUrl" : "http://localhost:8080/job/pytestdemo/9/allure/#testresult/e14bc10df372ed83",
-        "status" : "passed",
-        "time" : {
-          "start" : 1650168579015,
-          "stop" : 1650168579015,
-          "duration" : 0
-        }
-      }, {
-        "uid" : "24dca3d062f3c088",
-        "status" : "passed",
-        "time" : {
-          "start" : 1650168081008,
-          "stop" : 1650168081008,
-          "duration" : 0
-        }
-      } ]
-    },
     "tags" : [ "smoke" ]
   },
-  "source" : "3182eb8ab0a4f059.json",
+  "source" : "ad1e7772cc78c96.json",
   "parameterValues" : [ ]
 }
