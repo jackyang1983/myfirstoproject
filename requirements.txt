@@ -1,7 +1,8 @@
-pytest
+pytest~=7.1.1
 pytest-ordering
 pytest-xdist
 pytest-rerunfailures
 pytest-instafail
 pytest-html
 allure-pytest
+PyYAML~=6.0

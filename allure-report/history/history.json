@@ -9,8 +9,8 @@
       "total" : 6
     },
     "items" : [ {
-      "uid" : "537370665db5d770",
-      "reportUrl" : "http://localhost:8080/job/pytestdemo/18/allure/#testresult/537370665db5d770",
+      "uid" : "e48b5009d8d65222",
+      "reportUrl" : "http://localhost:8080/job/pytestdemo/18/allure/#testresult/e48b5009d8d65222",
       "status" : "passed",
       "time" : {
         "start" : 1650175234584,
@@ -73,8 +73,8 @@
       "total" : 6
     },
     "items" : [ {
-      "uid" : "6e4a7dcbcc234afc",
-      "reportUrl" : "http://localhost:8080/job/pytestdemo/18/allure/#testresult/6e4a7dcbcc234afc",
+      "uid" : "144a551e2254bd84",
+      "reportUrl" : "http://localhost:8080/job/pytestdemo/18/allure/#testresult/144a551e2254bd84",
       "status" : "passed",
       "time" : {
         "start" : 1650175234578,
@@ -137,8 +137,8 @@
       "total" : 6
     },
     "items" : [ {
-      "uid" : "d39fb0c6fb4f1eca",
-      "reportUrl" : "http://localhost:8080/job/pytestdemo/18/allure/#testresult/d39fb0c6fb4f1eca",
+      "uid" : "ca8f9e854327b273",
+      "reportUrl" : "http://localhost:8080/job/pytestdemo/18/allure/#testresult/ca8f9e854327b273",
       "status" : "passed",
       "time" : {
         "start" : 1650175234581,
@@ -205,8 +205,8 @@
       "total" : 6
     },
     "items" : [ {
-      "uid" : "1c4fc0c9781a812b",
-      "reportUrl" : "http://localhost:8080/job/pytestdemo/18/allure/#testresult/1c4fc0c9781a812b",
+      "uid" : "773ea773859b7aa0",
+      "reportUrl" : "http://localhost:8080/job/pytestdemo/18/allure/#testresult/773ea773859b7aa0",
       "status" : "passed",
       "time" : {
         "start" : 1650175234574,

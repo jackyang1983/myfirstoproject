@@ -1,0 +1,130 @@
+{
+  "uid" : "4142b7644bf66157",
+  "name" : "test_ui02",
+  "fullName" : "testcase.uitestcase.test_uilogin.TestUILoin1#test_ui02",
+  "historyId" : "fc212b1bb8041760e354d7145e0b6aa2",
+  "time" : {
+    "start" : 1650169554276,
+    "stop" : 1650169554276,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "all_fixture",
+    "time" : {
+      "start" : 1650169554276,
+      "stop" : 1650169554276,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "ui_fixture",
+    "time" : {
+      "start" : 1650169554276,
+      "stop" : 1650169554276,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "ui_fixture::0",
+    "time" : {
+      "start" : 1650169554276,
+      "stop" : 1650169554276,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "all_fixture::0",
+    "time" : {
+      "start" : 1650169554277,
+      "stop" : 1650169554277,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "uilogin"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=2)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.uitestcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_uilogin"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUILoin1"
+  }, {
+    "name" : "host",
+    "value" : "pc-jacky-PC"
+  }, {
+    "name" : "thread",
+    "value" : "7108-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.uitestcase.test_uilogin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=2)", "smoke" ]
+  },
+  "source" : "4142b7644bf66157.json",
+  "parameterValues" : [ ]
+}
