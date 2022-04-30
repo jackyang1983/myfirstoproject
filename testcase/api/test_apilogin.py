@@ -24,5 +24,4 @@ class TestAppLogin:
     #     driver.find_element_by_id('kw').send_keys('iTesting')
     #     driver.find_element_by_id('su').click()
     #     search_result = driver.find_element_by_xpath('//*[@id="1"]/div/div[1]/h3/a').get_attribute('innerHTML')
-    #     print(search_result)
     #     assert 'iTesting' in search_result
