@@ -7,7 +7,7 @@
       "name" : "apitestcase.test_apilogin",
       "children" : [ {
         "name" : "test_api01",
-        "uid" : "773ea773859b7aa0",
+        "uid" : "fcbf00c29a6117fd",
         "parentUid" : "a63ff0c261f1db1ea01687e4a096f0bb",
         "status" : "passed",
         "time" : {
@@ -28,7 +28,7 @@
       "name" : "uitestcase.test_uilogin",
       "children" : [ {
         "name" : "test_ui01",
-        "uid" : "144a551e2254bd84",
+        "uid" : "c85296f2e79e6c67",
         "parentUid" : "a8ec164fd069386216ed67284984244d",
         "status" : "passed",
         "time" : {
@@ -45,7 +45,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_ui02",
-        "uid" : "ca8f9e854327b273",
+        "uid" : "310b971d1b6a478f",
         "parentUid" : "a8ec164fd069386216ed67284984244d",
         "status" : "passed",
         "time" : {
@@ -62,7 +62,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_ui03",
-        "uid" : "e48b5009d8d65222",
+        "uid" : "6594e0e1e7205910",
         "parentUid" : "a8ec164fd069386216ed67284984244d",
         "status" : "passed",
         "time" : {

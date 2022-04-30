@@ -6,3 +6,5 @@ pytest-instafail
 pytest-html
 allure-pytest
 PyYAML~=6.0
+requests~=2.27.1
+selenium~=4.1.3

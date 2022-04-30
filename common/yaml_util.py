@@ -17,6 +17,7 @@ class YamlUtil:
         with open(self.yaml_file,encoding='utf-8') as f:
             value = yaml.load(f,Loader=yaml.FullLoader)
             print(value)
+            print(type(value))
             return value
 
 

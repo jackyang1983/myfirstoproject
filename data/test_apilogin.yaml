@@ -1,6 +1,7 @@
+# person table
 -
-  name: 张三
-  age: 18
+  username: 张三
+  password: 18
 -
-  name: 李四
-  age: 20
+  username: 李四
+  password: 20
