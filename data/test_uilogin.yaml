@@ -1,0 +1,7 @@
+# person table
+-
+  username: admin
+  password: admin
+-
+  username: aaa
+  password: bbb

@@ -1,45 +1,4 @@
 [ {
-  "buildOrder" : 18,
-  "reportUrl" : "http://localhost:8080/job/pytestdemo/18/allure",
-  "reportName" : "AllureReport",
-  "data" : { }
-}, {
-  "buildOrder" : 17,
-  "reportUrl" : "http://localhost:8080/job/pytestdemo/17/allure",
-  "reportName" : "AllureReport",
-  "data" : { }
-}, {
-  "buildOrder" : 16,
-  "reportUrl" : "http://localhost:8080/job/pytestdemo/16/allure",
-  "reportName" : "AllureReport",
-  "data" : {
-    "Product defects" : 1
-  }
-}, {
-  "buildOrder" : 15,
-  "reportUrl" : "http://localhost:8080/job/pytestdemo/15/allure",
-  "reportName" : "AllureReport",
-  "data" : {
-    "Product defects" : 1
-  }
-}, {
-  "buildOrder" : 9,
-  "reportUrl" : "http://localhost:8080/job/pytestdemo/9/allure",
-  "reportName" : "AllureReport",
-  "data" : {
-    "Product defects" : 1
-  }
-}, {
-  "buildOrder" : 8,
-  "reportUrl" : "http://localhost:8080/job/pytestdemo/8/allure",
-  "reportName" : "AllureReport",
-  "data" : { }
-}, {
-  "buildOrder" : 6,
-  "reportUrl" : "http://localhost:8080/job/pytestdemo/6/allure",
-  "reportName" : "AllureReport",
-  "data" : { }
-}, {
   "data" : {
     "Product defects" : 1
   }

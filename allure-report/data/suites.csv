@@ -1,5 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Sun Apr 17 14:00:34 CST 2022","Sun Apr 17 14:00:34 CST 2022","0","testcase.uitestcase","test_uilogin","TestUILoin1","","","test_ui02",""
-"passed","Sun Apr 17 14:00:34 CST 2022","Sun Apr 17 14:00:34 CST 2022","0","testcase.uitestcase","test_uilogin","TestUILoin1","","","test_ui03",""
-"passed","Sun Apr 17 14:00:34 CST 2022","Sun Apr 17 14:00:34 CST 2022","0","testcase.apitestcase","test_apilogin","TestAppLogin","","","test_api01",""
-"passed","Sun Apr 17 14:00:34 CST 2022","Sun Apr 17 14:00:34 CST 2022","1","testcase.uitestcase","test_uilogin","TestUILoin1","","","test_ui01",""
+"passed","Tue May 03 19:51:37 CST 2022","Tue May 03 19:51:37 CST 2022","55","testcase.api","test_apibaidu","TestApiBaidu","","","testbaidu",""
+"passed","Tue May 03 19:51:41 CST 2022","Tue May 03 19:51:45 CST 2022","4632","testcase.ui","test_uilogin","TestAppLogin","","","test_jenkins[args0]",""
+"failed","Tue May 03 19:51:58 CST 2022","Tue May 03 19:52:28 CST 2022","30354","testcase.ui","test_uilogin","TestAppLogin","","","test_jenkins[args1]",""

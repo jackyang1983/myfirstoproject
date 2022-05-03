@@ -22,4 +22,4 @@ class YamlUtil:
 
 
 if __name__ == '__main__':
-    YamlUtil('../data/test_apilogin.yaml').read_yaml()
+    YamlUtil('../data/test_uilogin.yaml').read_yaml()

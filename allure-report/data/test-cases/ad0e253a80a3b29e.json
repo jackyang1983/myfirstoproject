@@ -1,0 +1,123 @@
+{
+  "uid" : "ad0e253a80a3b29e",
+  "name" : "test_jenkins[args1]",
+  "fullName" : "testcase.ui.test_uilogin.TestAppLogin#test_jenkins",
+  "historyId" : "fce3672da8bf450b787cd5ce42bfb1fe",
+  "time" : {
+    "start" : 1651329791274,
+    "stop" : 1651329821568,
+    "duration" : 30294
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False",
+  "statusTrace" : "self = <testcase.ui.test_uilogin.TestAppLogin object at 0x0000000004C70310>\nui_fixture = (<selenium.webdriver.chrome.webdriver.WebDriver (session=\"482bc53ad640b79439a47d85f2118a0b\")>, 'http://localhost:8080/')\nargs = {'password': 'bbb', 'username': 'aaa'}\n\n    @pytest.mark.smoke\n    @pytest.mark.parametrize('args', YamlUtil('./data/test_uilogin.yaml').read_yaml())\n    @allure.severity('blocker')\n    def test_jenkins(self, ui_fixture, args):\n        driver, ui_base_url = ui_fixture\n        driver.get(ui_base_url)\n        try:\n            driver.find_element_by_id('j_username').send_keys(args['username'])\n            driver.find_element_by_name('j_password').send_keys(args['password'])\n            driver.find_element_by_name('Submit').click()\n            driver.find_element_by_id('search-box')\n            flag = True\n        except Exception as err:\n            flag = False\n            print('this is error:', err)\n>       assert flag\nE       assert False\n\ntestcase\\ui\\test_uilogin.py:25: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "ui_fixture",
+    "time" : {
+      "start" : 1651329787696,
+      "stop" : 1651329791273,
+      "duration" : 3577
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert False",
+    "statusTrace" : "self = <testcase.ui.test_uilogin.TestAppLogin object at 0x0000000004C70310>\nui_fixture = (<selenium.webdriver.chrome.webdriver.WebDriver (session=\"482bc53ad640b79439a47d85f2118a0b\")>, 'http://localhost:8080/')\nargs = {'password': 'bbb', 'username': 'aaa'}\n\n    @pytest.mark.smoke\n    @pytest.mark.parametrize('args', YamlUtil('./data/test_uilogin.yaml').read_yaml())\n    @allure.severity('blocker')\n    def test_jenkins(self, ui_fixture, args):\n        driver, ui_base_url = ui_fixture\n        driver.get(ui_base_url)\n        try:\n            driver.find_element_by_id('j_username').send_keys(args['username'])\n            driver.find_element_by_name('j_password').send_keys(args['password'])\n            driver.find_element_by_name('Submit').click()\n            driver.find_element_by_id('search-box')\n            flag = True\n        except Exception as err:\n            flag = False\n            print('this is error:', err)\n>       assert flag\nE       assert False\n\ntestcase\\ui\\test_uilogin.py:25: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "568f7a7d187a2859",
+      "name" : "失败截图",
+      "source" : "568f7a7d187a2859.png",
+      "type" : "image/png",
+      "size" : 30319
+    }, {
+      "uid" : "63133441ff817522",
+      "name" : "log",
+      "source" : "63133441ff817522.txt",
+      "type" : "text/plain",
+      "size" : 5475
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "ui_fixture::0",
+    "time" : {
+      "start" : 1651329822253,
+      "stop" : 1651329829576,
+      "duration" : 7323
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.ui"
+  }, {
+    "name" : "suite",
+    "value" : "test_uilogin"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAppLogin"
+  }, {
+    "name" : "host",
+    "value" : "pc-jacky-PC"
+  }, {
+    "name" : "thread",
+    "value" : "13116-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.ui.test_uilogin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "args",
+    "value" : "{'username': 'aaa', 'password': 'bbb'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "ad0e253a80a3b29e.json",
+  "parameterValues" : [ "{'username': 'aaa', 'password': 'bbb'}" ]
+}

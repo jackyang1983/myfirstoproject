@@ -4,16 +4,16 @@
   "children" : [ {
     "name" : "testcase",
     "children" : [ {
-      "name" : "apitestcase.test_apilogin",
+      "name" : "api.test_apibaidu",
       "children" : [ {
-        "name" : "test_api01",
-        "uid" : "fcbf00c29a6117fd",
-        "parentUid" : "a63ff0c261f1db1ea01687e4a096f0bb",
+        "name" : "testbaidu",
+        "uid" : "227013a05f0519e",
+        "parentUid" : "b21c534878ef60fd60ec126174d791bc",
         "status" : "passed",
         "time" : {
-          "start" : 1650175234574,
-          "stop" : 1650175234574,
-          "duration" : 0
+          "start" : 1651578697338,
+          "stop" : 1651578697393,
+          "duration" : 55
         },
         "flaky" : false,
         "newFailed" : false,
@@ -23,18 +23,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "apitestcase.test_apilogin"
+      "uid" : "api.test_apibaidu"
     }, {
-      "name" : "uitestcase.test_uilogin",
+      "name" : "ui.test_uilogin",
       "children" : [ {
-        "name" : "test_ui01",
-        "uid" : "c85296f2e79e6c67",
-        "parentUid" : "a8ec164fd069386216ed67284984244d",
+        "name" : "test_jenkins[args0]",
+        "uid" : "b35b58b174a96d67",
+        "parentUid" : "67d79c2642d029569775f551e1a91253",
         "status" : "passed",
         "time" : {
-          "start" : 1650175234578,
-          "stop" : 1650175234579,
-          "duration" : 1
+          "start" : 1651578701117,
+          "stop" : 1651578705749,
+          "duration" : 4632
         },
         "flaky" : false,
         "newFailed" : false,
@@ -42,33 +42,16 @@
         "newBroken" : false,
         "retriesCount" : 3,
         "retriesStatusChange" : false,
-        "parameters" : [ ]
+        "parameters" : [ "{'username': 'admin', 'password': 'admin'}" ]
       }, {
-        "name" : "test_ui02",
-        "uid" : "310b971d1b6a478f",
-        "parentUid" : "a8ec164fd069386216ed67284984244d",
-        "status" : "passed",
+        "name" : "test_jenkins[args1]",
+        "uid" : "a2a15dff949a336c",
+        "parentUid" : "67d79c2642d029569775f551e1a91253",
+        "status" : "failed",
         "time" : {
-          "start" : 1650175234581,
-          "stop" : 1650175234581,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 7,
-        "retriesStatusChange" : true,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_ui03",
-        "uid" : "6594e0e1e7205910",
-        "parentUid" : "a8ec164fd069386216ed67284984244d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1650175234584,
-          "stop" : 1650175234584,
-          "duration" : 0
+          "start" : 1651578718075,
+          "stop" : 1651578748429,
+          "duration" : 30354
         },
         "flaky" : false,
         "newFailed" : false,
@@ -76,9 +59,9 @@
         "newBroken" : false,
         "retriesCount" : 3,
         "retriesStatusChange" : false,
-        "parameters" : [ ]
+        "parameters" : [ "{'username': 'aaa', 'password': 'bbb'}" ]
       } ],
-      "uid" : "uitestcase.test_uilogin"
+      "uid" : "ui.test_uilogin"
     } ],
     "uid" : "559e15d0a5469c40d1629e36b5ae40ea"
   } ]

@@ -1,26 +1,4 @@
 {
-  "total" : 2,
-  "items" : [ {
-    "uid" : "5ea0e6b9a8998aac68be87cac27a4c0a",
-    "name" : "uilogin",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 3,
-      "unknown" : 0,
-      "total" : 3
-    }
-  }, {
-    "uid" : "4b19e11faf919a0c8aa7dec9f0e7f54a",
-    "name" : "apilogin",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  } ]
+  "total" : 3,
+  "items" : [ ]
 }

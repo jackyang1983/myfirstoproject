@@ -4,245 +4,33 @@
   "children" : [ {
     "name" : "pc-jacky-PC",
     "children" : [ {
-      "name" : "7160-MainThread",
+      "name" : "7140-MainThread",
       "children" : [ {
-        "name" : "test_ui02",
-        "uid" : "914cb817ed0383b1",
-        "parentUid" : "48cd57528b2a416afb0d110dd4061219",
-        "status" : "failed",
-        "time" : {
-          "start" : 1650169235463,
-          "stop" : 1650169235463,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_ui02",
-        "uid" : "b925eca2f1fb618e",
-        "parentUid" : "48cd57528b2a416afb0d110dd4061219",
-        "status" : "failed",
-        "time" : {
-          "start" : 1650169235471,
-          "stop" : 1650169235471,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_ui03",
-        "uid" : "9493f99038dafa1e",
-        "parentUid" : "48cd57528b2a416afb0d110dd4061219",
+        "name" : "test_jenkins[args0]",
+        "uid" : "b35b58b174a96d67",
+        "parentUid" : "30c58051920daf8a901132d7a753d92d",
         "status" : "passed",
         "time" : {
-          "start" : 1650169235479,
-          "stop" : 1650169235479,
-          "duration" : 0
+          "start" : 1651578701117,
+          "stop" : 1651578705749,
+          "duration" : 4632
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 0,
+        "retriesCount" : 3,
         "retriesStatusChange" : false,
-        "parameters" : [ ]
+        "parameters" : [ "{'username': 'admin', 'password': 'admin'}" ]
       }, {
-        "name" : "test_ui02",
-        "uid" : "82768155e7bf690f",
-        "parentUid" : "48cd57528b2a416afb0d110dd4061219",
-        "status" : "failed",
-        "time" : {
-          "start" : 1650169234887,
-          "stop" : 1650169234887,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_ui01",
-        "uid" : "886bcdf3b7c83349",
-        "parentUid" : "48cd57528b2a416afb0d110dd4061219",
+        "name" : "testbaidu",
+        "uid" : "227013a05f0519e",
+        "parentUid" : "30c58051920daf8a901132d7a753d92d",
         "status" : "passed",
         "time" : {
-          "start" : 1650169234884,
-          "stop" : 1650169234885,
-          "duration" : 1
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_api01",
-        "uid" : "214aecc2f3f2c3df",
-        "parentUid" : "48cd57528b2a416afb0d110dd4061219",
-        "status" : "passed",
-        "time" : {
-          "start" : 1650169234876,
-          "stop" : 1650169234876,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "48cd57528b2a416afb0d110dd4061219"
-    }, {
-      "name" : "3880-MainThread",
-      "children" : [ {
-        "name" : "test_ui03",
-        "uid" : "65c31b7ffcf69556",
-        "parentUid" : "90d34a360fd8161b6532fb922219f215",
-        "status" : "passed",
-        "time" : {
-          "start" : 1650169420305,
-          "stop" : 1650169420305,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_ui01",
-        "uid" : "ffc64a5db22665c0",
-        "parentUid" : "90d34a360fd8161b6532fb922219f215",
-        "status" : "passed",
-        "time" : {
-          "start" : 1650169419703,
-          "stop" : 1650169419703,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_ui02",
-        "uid" : "f900fad620c8e7fc",
-        "parentUid" : "90d34a360fd8161b6532fb922219f215",
-        "status" : "failed",
-        "time" : {
-          "start" : 1650169420293,
-          "stop" : 1650169420293,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_ui02",
-        "uid" : "90000eb1b5301ff0",
-        "parentUid" : "90d34a360fd8161b6532fb922219f215",
-        "status" : "failed",
-        "time" : {
-          "start" : 1650169419705,
-          "stop" : 1650169419705,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_ui02",
-        "uid" : "cb54405d52c1700d",
-        "parentUid" : "90d34a360fd8161b6532fb922219f215",
-        "status" : "failed",
-        "time" : {
-          "start" : 1650169420285,
-          "stop" : 1650169420286,
-          "duration" : 1
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_api01",
-        "uid" : "13bf606b8baa09fc",
-        "parentUid" : "90d34a360fd8161b6532fb922219f215",
-        "status" : "passed",
-        "time" : {
-          "start" : 1650169419698,
-          "stop" : 1650169419698,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "90d34a360fd8161b6532fb922219f215"
-    }, {
-      "name" : "5372-MainThread",
-      "children" : [ {
-        "name" : "test_ui02",
-        "uid" : "310b971d1b6a478f",
-        "parentUid" : "84121a85ec4d2cd73937532565277f0f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1650175234581,
-          "stop" : 1650175234581,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 7,
-        "retriesStatusChange" : true,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_api01",
-        "uid" : "fcbf00c29a6117fd",
-        "parentUid" : "84121a85ec4d2cd73937532565277f0f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1650175234574,
-          "stop" : 1650175234574,
-          "duration" : 0
+          "start" : 1651578697338,
+          "stop" : 1651578697393,
+          "duration" : 55
         },
         "flaky" : false,
         "newFailed" : false,
@@ -252,14 +40,14 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       }, {
-        "name" : "test_ui01",
-        "uid" : "c85296f2e79e6c67",
-        "parentUid" : "84121a85ec4d2cd73937532565277f0f",
-        "status" : "passed",
+        "name" : "test_jenkins[args1]",
+        "uid" : "a2a15dff949a336c",
+        "parentUid" : "30c58051920daf8a901132d7a753d92d",
+        "status" : "failed",
         "time" : {
-          "start" : 1650175234578,
-          "stop" : 1650175234579,
-          "duration" : 1
+          "start" : 1651578718075,
+          "stop" : 1651578748429,
+          "duration" : 30354
         },
         "flaky" : false,
         "newFailed" : false,
@@ -267,37 +55,37 @@
         "newBroken" : false,
         "retriesCount" : 3,
         "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_ui03",
-        "uid" : "6594e0e1e7205910",
-        "parentUid" : "84121a85ec4d2cd73937532565277f0f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1650175234584,
-          "stop" : 1650175234584,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 3,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
+        "parameters" : [ "{'username': 'aaa', 'password': 'bbb'}" ]
       } ],
-      "uid" : "84121a85ec4d2cd73937532565277f0f"
+      "uid" : "30c58051920daf8a901132d7a753d92d"
     }, {
-      "name" : "7108-MainThread",
+      "name" : "13116-MainThread",
       "children" : [ {
-        "name" : "test_ui01",
-        "uid" : "db55de21f4805072",
-        "parentUid" : "75733fd9e094e475670ba867e60365a0",
+        "name" : "test_jenkins[args1]",
+        "uid" : "ad0e253a80a3b29e",
+        "parentUid" : "c0c6f96a2d8eb312e1b1d18117030565",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651329791274,
+          "stop" : 1651329821568,
+          "duration" : 30294
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'username': 'aaa', 'password': 'bbb'}" ]
+      }, {
+        "name" : "testbaidu",
+        "uid" : "507cf82c7d7aae3",
+        "parentUid" : "c0c6f96a2d8eb312e1b1d18117030565",
         "status" : "passed",
         "time" : {
-          "start" : 1650169554274,
-          "stop" : 1650169554274,
-          "duration" : 0
+          "start" : 1651329775491,
+          "stop" : 1651329775524,
+          "duration" : 33
         },
         "flaky" : false,
         "newFailed" : false,
@@ -307,14 +95,14 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       }, {
-        "name" : "test_ui02",
-        "uid" : "5bbaf396dc546baa",
-        "parentUid" : "75733fd9e094e475670ba867e60365a0",
+        "name" : "test_jenkins[args0]",
+        "uid" : "83668b56a228650d",
+        "parentUid" : "c0c6f96a2d8eb312e1b1d18117030565",
         "status" : "passed",
         "time" : {
-          "start" : 1650169554276,
-          "stop" : 1650169554276,
-          "duration" : 0
+          "start" : 1651329778949,
+          "stop" : 1651329779618,
+          "duration" : 669
         },
         "flaky" : false,
         "newFailed" : false,
@@ -322,43 +110,119 @@
         "newBroken" : false,
         "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_ui03",
-        "uid" : "eaaa26c9e068956a",
-        "parentUid" : "75733fd9e094e475670ba867e60365a0",
-        "status" : "passed",
-        "time" : {
-          "start" : 1650169554280,
-          "stop" : 1650169554280,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_api01",
-        "uid" : "e65e0cf5ec64e8d2",
-        "parentUid" : "75733fd9e094e475670ba867e60365a0",
-        "status" : "passed",
-        "time" : {
-          "start" : 1650169554269,
-          "stop" : 1650169554269,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
+        "parameters" : [ "{'username': 'admin', 'password': 'admin'}" ]
       } ],
-      "uid" : "75733fd9e094e475670ba867e60365a0"
+      "uid" : "c0c6f96a2d8eb312e1b1d18117030565"
+    }, {
+      "name" : "3148-MainThread",
+      "children" : [ {
+        "name" : "test_jenkins[args1]",
+        "uid" : "9487ebabd4c47e11",
+        "parentUid" : "e6f3e6db49e7d58ec2ef1f837b67a46f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651505297113,
+          "stop" : 1651505327509,
+          "duration" : 30396
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'username': 'aaa', 'password': 'bbb'}" ]
+      }, {
+        "name" : "testbaidu",
+        "uid" : "3cced7e784172407",
+        "parentUid" : "e6f3e6db49e7d58ec2ef1f837b67a46f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651505275811,
+          "stop" : 1651505275861,
+          "duration" : 50
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_jenkins[args0]",
+        "uid" : "1d5c29baa4ca2dd4",
+        "parentUid" : "e6f3e6db49e7d58ec2ef1f837b67a46f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651505280437,
+          "stop" : 1651505285368,
+          "duration" : 4931
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'username': 'admin', 'password': 'admin'}" ]
+      } ],
+      "uid" : "e6f3e6db49e7d58ec2ef1f837b67a46f"
+    }, {
+      "name" : "6916-MainThread",
+      "children" : [ {
+        "name" : "testbaidu",
+        "uid" : "b24441071c968467",
+        "parentUid" : "2c49b8b6e8e1db813573b1da77b5986a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651329605766,
+          "stop" : 1651329605797,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_jenkins[args1]",
+        "uid" : "339b8805aababf33",
+        "parentUid" : "2c49b8b6e8e1db813573b1da77b5986a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651329623615,
+          "stop" : 1651329653928,
+          "duration" : 30313
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'username': 'aaa', 'password': 'bbb'}" ]
+      }, {
+        "name" : "test_jenkins[args0]",
+        "uid" : "1e1ff3811c27fe21",
+        "parentUid" : "2c49b8b6e8e1db813573b1da77b5986a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651329612199,
+          "stop" : 1651329612901,
+          "duration" : 702
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'username': 'admin', 'password': 'admin'}" ]
+      } ],
+      "uid" : "2c49b8b6e8e1db813573b1da77b5986a"
     } ],
     "uid" : "0e91b21a6c7a4c23314fc39000f3040f"
   } ]
