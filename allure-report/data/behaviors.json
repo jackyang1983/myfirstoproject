@@ -1,56 +1,5 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
-  "children" : [ {
-    "name" : "testbaidu",
-    "uid" : "227013a05f0519e",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1651578697338,
-      "stop" : 1651578697393,
-      "duration" : 55
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 3,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "test_jenkins[args0]",
-    "uid" : "b35b58b174a96d67",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1651578701117,
-      "stop" : 1651578705749,
-      "duration" : 4632
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 3,
-    "retriesStatusChange" : false,
-    "parameters" : [ "{'username': 'admin', 'password': 'admin'}" ]
-  }, {
-    "name" : "test_jenkins[args1]",
-    "uid" : "a2a15dff949a336c",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "failed",
-    "time" : {
-      "start" : 1651578718075,
-      "stop" : 1651578748429,
-      "duration" : 30354
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 3,
-    "retriesStatusChange" : false,
-    "parameters" : [ "{'username': 'aaa', 'password': 'bbb'}" ]
-  } ]
+  "children" : [ ]
 }
