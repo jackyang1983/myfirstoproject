@@ -1,10 +1,8 @@
 import pytest
 import allure
-from selenium.webdriver.support import expected_conditions
-
+from selenium.webdriver.common.by import By
 from common.yaml_util import YamlUtil
 from common.excel_util import ExcelUtil
-from selenium import webdriver
 from pageobj.login_page import LoginPage
 
 
@@ -16,11 +14,10 @@ class TestLogin:
     # @allure.severity('blocker')
     def test_01_login(self, args, start_driver):
         driver = start_driver
-        LP = LoginPage(driver)
-        LP.login_jenkins(args['username'], args['password'])
+        LoginPage(driver).login_jenkins(args['username'], args['password'])
         flag = True
         try:
-            driver.find_element_by_id('search-box')
+            driver.find_element(By.ID, 'search-box')
         except Exception as err:
             print(err)
             flag = False

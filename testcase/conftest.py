@@ -1,27 +1,17 @@
 import allure
 import pytest
-import requests
-import time
 from selenium import webdriver
 
-# 测试方法级别的fixture装饰器，每个测试方法运行一次
-@pytest.fixture(scope='function', autouse=False)
-def api_fixture():
-    s = requests.session()
-    api_base_url = 'http://www.baidu.com'
-    yield s, api_base_url
-    s.close()
 
+driver = None
 
 @pytest.fixture(scope='function', autouse=False)
-def ui_fixture():
+def start_driver():
     global driver
-    global ui_base_url
     driver = webdriver.Chrome()
-    driver.implicitly_wait(30)
-    ui_base_url = 'http://localhost:8080/'
-    yield driver, ui_base_url
-    time.sleep(5)
+    driver.get("http://localhost:8080")
+    driver.implicitly_wait(5)
+    yield driver
     driver.quit()
 
 

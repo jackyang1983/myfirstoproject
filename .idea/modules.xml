@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../pytestlearn/.idea/pytestlearn.iml" filepath="$PROJECT_DIR$/../pytestlearn/.idea/pytestlearn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../uitestframework/.idea/uitestframework.iml" filepath="$PROJECT_DIR$/../uitestframework/.idea/uitestframework.iml" />
     </modules>
   </component>
 </project>
